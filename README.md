@@ -50,4 +50,6 @@ R-squared is .7149, which is a strong correlation for the dataset and shows the 
 
  ## Summary Statistics on Suspension Coils
  
+ ![Suspension_Coil(2)](https://user-images.githubusercontent.com/103701561/184546853-f31be523-e7c1-457d-ab81-ad30cc233e51.png)
  
+![Suspension_Coil(4)](https://user-images.githubusercontent.com/103701561/184546859-d664a42d-28bc-47b6-8b79-4faa0bd4a37c.png)
