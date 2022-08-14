@@ -47,3 +47,7 @@ The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length) +.
 R-squared is .7149, which is a strong correlation for the dataset and shows the dataset is an effective dataset. However, r-squared is not the only consideration for effectiveness. There may be other variables not included in the dataset contributing to the variation in the mpg.
 
 
+
+ ## Summary Statistics on Suspension Coils
+ 
+ 
