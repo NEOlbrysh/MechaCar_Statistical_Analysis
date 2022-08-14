@@ -4,13 +4,14 @@
 
 
 The MechaCar dataset contains a sample size of 50 prototypes measuring the miles per gallon across multiple variables. The linear regression was calculated using R in RStudio.
+
 Linear Regression
 R script was applied to the dataset on several variables to get the following coefficients.
 
 ![MechaCar_mpg(2)](https://user-images.githubusercontent.com/103701561/184545746-807980aa-9b99-448d-8a75-515603b65389.png)
 
 
-Summary of Linear Regression model
+### Summary of Linear Regression model
 A summary of the linear regression can be displayed to determine the quality of the dataset. In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
 
 ![MechaCar_mpg(4)](https://user-images.githubusercontent.com/103701561/184545885-9b6f0b31-9d0b-47f6-80df-44493c3d9c8b.png)
@@ -50,13 +51,13 @@ R-squared is .7149, which is a strong correlation for the dataset and shows the 
 
  ## Summary Statistics on Suspension Coils
  
- Manufacturing Lot Summary
+### Manufacturing Lot Summary
 Below is the summary statistics of all the manufacturing lots. The mean is 1498.78 for this sample and the population mean was determined to be 1500.
 
  
  ![Suspension_Coil(2)](https://user-images.githubusercontent.com/103701561/184546853-f31be523-e7c1-457d-ab81-ad30cc233e51.png)
  
- Summary by Manufacturing Lot Number
+### Summary by Manufacturing Lot Number
 The means of the lot numbers are like the population mean and the sample mean.
 
  
@@ -68,7 +69,7 @@ The variance for the total manufacturing lot is 62 < 100, which is within the ex
 
 ## T-Tests on Suspension Coils
 
-T-test for all Lots
+### T-test for all Lots
 
 
 All Manufacturing Lots: p-value = .6028, alpha = .05
@@ -79,16 +80,16 @@ All Manufacturing Lots: p-value = .6028, alpha = .05
 ![T Test(2)](https://user-images.githubusercontent.com/103701561/184547297-a56acd2e-c385-4e01-8422-4e78ef7d20d3.png)
 
 
-T-test for Lot 1
+### T-test for Lot 1
 Lot 1: p-value = 1, alpha = .05
 1 > .05, which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
-T-test for Lot 2
+### T-test for Lot 2
 Lot 2: p-value = .6072, alpha = .05
 
 .60 > .05, which means Lot 2 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
-T-test for Lot 3
+### T-test for Lot 3
 Lot 3: p-value = .04168, alpha = .05
 .04 < .05, which means it is statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls within the 95% confidence interval.
 
