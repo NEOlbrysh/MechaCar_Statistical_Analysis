@@ -6,6 +6,10 @@
 The MechaCar dataset contains a sample size of 50 prototypes measuring the miles per gallon across multiple variables. The linear regression was calculated using R in RStudio.
 Linear Regression
 R script was applied to the dataset on several variables to get the following coefficients.
+
+![MechaCar_mpg(2)](https://user-images.githubusercontent.com/103701561/184545746-807980aa-9b99-448d-8a75-515603b65389.png)
+
+
 Summary of Linear Regression model
 A summary of the linear regression can be displayed to determine the quality of the dataset. In this distribution of the residuals, the dataset fits in with the normal parameters, where the absolute value of the min and max are comparable |-19.47|~|18.58| and the median -.07 is close to zero.
 
